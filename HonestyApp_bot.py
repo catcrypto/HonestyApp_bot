@@ -2,7 +2,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppI
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 
 # Configuración
-TOKEN = "7347886701:AAG9ubjixRs4OZfXuCfx_Yq7MJx8ueCiQc4"
+import os
+TOKEN = os.getenv("TOKEN")
+
 WEB_APP_URL = "www.honestylearningapp"
 MINIJUEGO_1_URL = "https://www.honestylearningapp/minijuego1"
 MINIJUEGO_2_URL = "https://www.honestylearningapp/minijuego2"
