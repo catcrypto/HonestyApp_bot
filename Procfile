@@ -1,0 +1,1 @@
+worker: python3 HonestyApp_bot.py
